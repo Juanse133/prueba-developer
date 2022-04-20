@@ -1,0 +1,42 @@
+// Global
+.aerolinea-container {
+    list-style: none;
+    padding: 0;
+}
+
+.aerolinea-btn {
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #7200ba;
+    color: #fff;
+    border-color: #7200ba;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 700;
+    box-shadow: 0 9px #999;
+    min-width: 130px;
+}
+
+.aerolinea-btn:hover {
+    padding: 18px 8px;
+    transition: all 0.2s ease;
+    background-color: #2d0055;
+}
+.aerolinea-btn:active {
+    background-color: #7200ba;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+// Desktop
+@media (min-width: 57.5em) {
+    .menu-container {
+        text-align: center;
+        margin: 3em 0;
+    }
+    .aerolinea-btn {
+        display: inline-block;
+        margin: 10px;
+    }
+}

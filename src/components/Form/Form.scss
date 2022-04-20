@@ -1,0 +1,51 @@
+// Global
+.form-field{
+    min-width: 320px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #7200ba;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom:1rem;
+}
+
+.submit-btn:hover{
+    background-color: #7200ba
+}
+
+.submit-btn:active{
+    background-color: #7200ba;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.welcome-message{
+    margin: 1em 0;
+    font-size: 1.5rem;
+}
+.form-container{
+    text-align: center;
+}
+
+// Desktop
+@media (min-width: 57.5em){
+    
+    .form-div{
+        margin: 0.5rem 0;
+    }
+}
