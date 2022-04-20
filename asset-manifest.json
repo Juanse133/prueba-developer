@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prueba-developer/static/css/main.9b2e8bce.css",
+    "main.js": "/prueba-developer/static/js/main.fb8aae07.js",
+    "index.html": "/prueba-developer/index.html",
+    "main.9b2e8bce.css.map": "/prueba-developer/static/css/main.9b2e8bce.css.map",
+    "main.fb8aae07.js.map": "/prueba-developer/static/js/main.fb8aae07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b2e8bce.css",
+    "static/js/main.fb8aae07.js"
+  ]
+}
